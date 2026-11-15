@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+<body>
+  <h1 id="titulo">Qrcode Gerador</h1>
+
+  <div id="Organizar">
+    <button id="Ir_Link">Link</button>
+    <button id="Ir_Texto">Texto</button>
+
+    <script>
+      const btn_link = document.getElementById("Ir_Link");
+      const btn_texto = document.getElementById("Ir_Texto");
+
+      btn_link.addEventListener("click", function() {
+        window.location.href = "./Links/index.html";
+      });
+
+      btn_texto.addEventListener("click", function() {
+        window.location.href = "./Textos/index.html";
+      });
+    </script>
+  </div>
+</body>
+</html>

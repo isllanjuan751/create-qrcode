@@ -1,0 +1,59 @@
+#Cabecalho {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px 0px 0px;
+}
+
+#Titulo {
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+
+#Componentes {
+    margin: 10px 0px 0px 20px;
+}
+
+#saida {
+    padding: 0px 0px 0px 5px;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    height: 20px;
+    width: 200px;
+    border-radius: 6px;
+    border-color: blue;
+}
+
+#saida::placeholder {
+    color: blue;
+}
+
+#Conteudo {
+    margin: 0px 0px 0px 350px;
+    height: 400px;
+    width: 350px;
+    padding: 5px 0px 0px 10px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    border-color: yellow;
+}
+
+#Conteudo::placeholder {
+    color: aqua;
+}
+
+#btn-gerador {
+    margin: 20px 0px 0px 0px;
+    height: 70px;
+    border-radius: 10px;
+    border-color: darkblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellow;
+}
+
+#btn-voltar {
+    height: 40px;
+    border-radius: 5px;
+    border-color: green;
+    color: blue;
+}
